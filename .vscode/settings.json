@@ -1,0 +1,7 @@
+{
+    "typescript.disableAutomaticTypeAcquisition": false,
+    "editor.formatOnType": false,
+    "html.format.maxPreserveNewLines": null,
+    "html.format.templating": false,
+    "html.format.unformattedContentDelimiter": ""
+}
