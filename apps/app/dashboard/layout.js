@@ -1,5 +1,5 @@
 import Nav from "../nav/page"
-import Footer from "../footer/page"
+import FooterTwoComponents from "./footertwo/page"
 export default function DashboardLayout({
   children, // will be a page or nested layout
 }) {
@@ -8,7 +8,7 @@ export default function DashboardLayout({
       {/* dashboard page uchun map */}
       <Nav />
       {children}
-      <Footer />
+      <FooterTwoComponents />
     </section>
   )
 }
