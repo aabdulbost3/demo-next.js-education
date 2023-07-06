@@ -1,4 +1,5 @@
 import style from "./Nav.module.css"
+import Link from "next/link"
 export default function Nav() {
     return (
         <>
@@ -11,10 +12,10 @@ export default function Nav() {
 
                         <div>
                             <ul className={style.navList}>
-                                <li className={style.navText}>Home</li>
-                                <li className={style.navText}>About</li>
-                                <li className={style.navText}>Contact</li>
-                                <li className={style.navText}>FAQ</li>
+                                <li className={style.navText}><Link href="/">Home</Link></li>
+                                <li className={style.navText}><Link href="dashboard">dashboard</Link></li>
+                                <li className={style.navText}><Link href="/">Contact</Link></li>
+                                <li className={style.navText}><Link href="/">FAQ</Link></li>
                             </ul>
                         </div>
                     </div>
