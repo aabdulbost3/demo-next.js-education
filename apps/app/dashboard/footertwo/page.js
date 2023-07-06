@@ -1,8 +1,10 @@
-import styles from "./FooterTwoComponents.css"
+import styles from "./style.css"
 export default function FooterTwoComponents() {
     return (
-      <>
-      <h1 className={styles.stress}>Hello, footer Two Page!</h1>
-      </>
+        <div>
+            <h1 className={styles.hh}>
+                Hello, footer Two Page!
+            </h1>
+        </div>
     )
-  }
+}
