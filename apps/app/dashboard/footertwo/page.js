@@ -1,4 +1,4 @@
-import styles from "./style.css"
+import styles from "./Style.module.css"
 export default function FooterTwoComponents() {
     return (
         <div>
