@@ -1,4 +1,5 @@
-import style from './globals.css'
+import './globals.css'
+import style from "./page.module.css"
 import { Inter } from 'next/font/google'
 import Nav from './nav/page'
 import FooterComponents from './FooterComponents/page'
