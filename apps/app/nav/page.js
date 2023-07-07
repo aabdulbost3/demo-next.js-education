@@ -14,7 +14,7 @@ export default function Nav() {
                             <ul className={style.navList}>
                                 <li className={style.navText}><Link href="/">Home</Link></li>
                                 <li className={style.navText}><Link href="dashboard">dashboard</Link></li>
-                                <li className={style.navText}><Link href="/">Contact</Link></li>
+                                <li className={style.navText}><Link href="/post/Blog">Contact</Link></li>
                                 <li className={style.navText}><Link href="/">FAQ</Link></li>
                             </ul>
                         </div>
