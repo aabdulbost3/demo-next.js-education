@@ -4,7 +4,6 @@
 .navContent {
     display: flex;
     justify-content: space-between;
-
 }
 .navList li{
     display: inline;
