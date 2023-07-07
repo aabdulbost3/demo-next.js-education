@@ -6,29 +6,29 @@ import Nav from "../../nav/page"
  
 
 const PostRouting = () => { // Postni ichida Bloglarga o'tish
-    const router = useRouter();
-    const {Id} = router.query
+    // const router = useRouter();
+    // const {id} = router
 
     return (
         <div>
-            {/* <Nav /> */}
-            <h1>Post : {Id}</h1>
+            <Nav />
+            <h1>Post : {params.id}</h1>
 
             <ul>
                 <li>
-                    <Link href="/[Blog]" as={`./post/${Id}/1`}>
+                    <Link href="/[Blog]" >
                         1 Blog
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="/post/[Id]/[Blog]" as={`/post/${Id}/2`}>
+                    <Link href="/post/[id]/[Blog]" >
                        2 Blog
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="/post/[Id]/[Blog]" as={`/post/${Id}/3`}>
+                    <Link href="/post/[id]/[Blog]" >
                        3 Blog
                     </Link>
                 </li>

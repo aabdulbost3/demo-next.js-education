@@ -1,19 +1,18 @@
 
 import Nav from "../../nav/page"
 import { useRouter  } from "next/navigation"
-import Home from '../../page'
 
 
-const Blog = () => {
-    const router = useRouter()
-    const  { Id, Blog} = router.query;
+const Blog = ({params}) => {
+    // const router = useRouter()
+    // const  { id, Blog} = router.query;
 
 
     return(
         <div>
             <Nav />
-            <h1>Post : {Id}</h1>
-            <h2>Blog : {Blog}</h2>
+            <h1>Post : {params.id}</h1>
+            <h2>Blog : {params.blog}</h2>
         </div>
     )
 }
