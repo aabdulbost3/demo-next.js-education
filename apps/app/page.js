@@ -2,7 +2,7 @@ import Link from "next/link.js"
 export default function Home() {
   return (
     <div>
-      <h1>Hello, Home page!</h1>
+      <h1>Hello, Home pageee!</h1>
       <Link href="/studentListRoutingFile/">student Listga</Link>
     </div>
   )
